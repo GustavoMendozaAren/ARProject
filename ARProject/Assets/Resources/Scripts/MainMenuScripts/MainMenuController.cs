@@ -8,7 +8,7 @@ public class MainMenuController : MonoBehaviour
     [SerializeField] private string url;
     [SerializeField] private string url2;
 
-    public void OpenInstagram()
+    public void OpenFacebook()
     {
         Application.OpenURL(url);
     }
